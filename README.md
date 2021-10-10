@@ -30,6 +30,12 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
+## Project Rubric Cover: 
+The original code has covered several rubric (more than 5) in the project, I added two more feature to this game. 
+* **First, the snake will die if hit the wall. Since the snake will hit the wall and die, I also made sure the food/poison
+ won't appear on the border of the game.** (snake.cpp ln 65-67, game.cpp ln 8-14) 
+* **Second, I add one more object that's poison, that's gonna reduce the snake length by 1 and slow the speed by 0.05.** (game.cpp ln 71-82, game.cpp ln 99-103, render.cpp ln 58-61)  
+
 
 ## CC Attribution-ShareAlike 4.0 International
 
