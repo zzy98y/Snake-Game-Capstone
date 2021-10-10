@@ -57,7 +57,7 @@ void Renderer::Render(Snake const snake, SDL_Point const &food, SDL_Point const 
   // Render Poison 
   SDL_SetRenderDrawColor(sdl_renderer,0xFF,0xEE,0x88,0xFF);
   block.x = poison.x*block.w;
-  block.y = poison.x*block.h;
+  block.y = poison.y*block.h;
   SDL_RenderFillRect(sdl_renderer,&block);
 
   // Render snake's body
